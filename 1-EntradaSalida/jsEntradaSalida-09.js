@@ -9,6 +9,5 @@ function mostrarAumento()
 	let aumento = (sueldo * 10) / 100 + sueldo;
 
     document.getElementById("txtIdResultado").value = aumento; 
-
 	
 }
