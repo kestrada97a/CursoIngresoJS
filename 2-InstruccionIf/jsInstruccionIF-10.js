@@ -9,15 +9,15 @@ function mostrar()
 	//condicional
 	if(numero >=9)
 	{
-		alert("EXCELENTE");
+		alert("EXCELENTE " + numero);
 	}
 	else if (numero >=4 && numero<=8)
 	{
-		alert("APROBÓ")
+		alert("APROBÓ " + numero)
 	}
 	else
 	{
-		alert ("Vamos, la proxima se puede");
+		alert ("Vamos, la proxima se puede " + numero);
 	}
     	
 
