@@ -5,7 +5,7 @@ function mostrar()
 	let maximo=10;
 	let minimo=1;
 	//formula
-	numero = Math.round(Math.random() * (maximo - minimo) + minimo);
+	numero = Math.round(Math.random() * (maximo - minimo) + minimo);  // se puede hacer tambine * 9 + 1
 	//condicional
 	if(numero >=9)
 	{
@@ -15,7 +15,7 @@ function mostrar()
 	{
 		alert("APROBÓ")
 	}
-	else if(numero <=3 )
+	else
 	{
 		alert ("Vamos, la proxima se puede");
 	}
