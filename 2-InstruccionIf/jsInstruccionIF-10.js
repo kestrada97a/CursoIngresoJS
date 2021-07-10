@@ -2,8 +2,10 @@ function mostrar()
 {
 	//variables
 	let numero;
+	let maximo=10;
+	let minimo=1;
 	//formula
-	numero = Math.round(Math.random() * 10);
+	numero = Math.round(Math.random() * (maximo - minimo) + minimo);
 	//condicional
 	if(numero >=9)
 	{
