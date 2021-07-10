@@ -11,10 +11,10 @@ function mostrar()
 	}
 	else if (edad>=18)  
 	{
-     alert("la persona es mayor de edad")
+     alert("la persona es mayor de edad");
 	}
 	else if (edad<=13)
 	{
-		alert("la persona es un niño")
+		alert("la persona es un niño");
 	}
 }//FIN DE LA FUNCIÓN
