@@ -20,7 +20,7 @@ function mostrar()
 		case "Julio":
 		case "Agosto":
 		case "Septiembre":
-		case "Octubre":
+		case "Octubre":          //forma que el profe enseñó
 		case "Noviembre":
 		case "Diciembre":
 			alert("Este mes tiene 30 o más días" );

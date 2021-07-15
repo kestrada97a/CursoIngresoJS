@@ -1,6 +1,47 @@
 function mostrar()
 {
-	var estacionIngresada =txtIdEstacion.value;
-	alert(estacionIngresada);
+//variables
+let estacion;
+let destino;
+//asignacion valor
+estacion = document.getElementById("txtIdEstacion").value;
+destino = document.getElementById("txtIdDestino").value;
+//switch
+switch (estacion)
+{
+	case "Invierno":
+		if (destino != "Bariloche")
+		{
+			alert("No se viaja");
+		}
+		else
+		{
+			alert ("Se viaja");
+		}
+		break;
+	case "Verano":
+		if(destino == "Mar del plata" || destino == "Cataratas")
+		{
+			alert("Se viaja");
+		}
+		else
+		{
+			alert("No se viaja");
+		}
+		break;
+	case "Otoño":
+		alert ("Se viaja");
+		break;
+	case "Primavera":
+		if(destino == "Bariloche")
+		{
+			alert("No se viaja");
+		}
+		else
+		{
+			alert("Se viaja");
+		}
+		break;
+}
 
 }//FIN DE LA FUNCIÓN
