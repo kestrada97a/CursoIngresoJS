@@ -12,15 +12,19 @@ var contadorIntentos;
 
 function comenzar()
 {
-	//Genero el número RANDOM entre 1 y 100
-	 
-		//alert(numeroSecreto );
-	
-
+  //variables 
+  let numero;
+  let min=1;
+  let max=100;
+  let intentos;
+  //valores
+  numero = Math.floor(Math.random() * (max - min) + min);
 }
 
 function verificar()
 {
+  let numero;
+  
 	
 	
 }
