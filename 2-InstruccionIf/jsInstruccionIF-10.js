@@ -13,7 +13,7 @@ function mostrar()
 	}
 	else if (numero >=4 && numero<=8)
 	{
-		alert("APROBÓ " + numero)
+		alert("APROBÓ " + numero);
 	}
 	else
 	{
