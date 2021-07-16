@@ -4,15 +4,26 @@ e informar la suma acumulada y el promedio.
 */
 function mostrar()
 {
-	var contador;
-	var acumulador;
-	var respuesta;
-	contador=0;
-	acumulador=0;
-	respuesta='si';
+	let i=0;
+	let num;
+	let suma=0;  //hay q crear una variable para que se sume ahí el "num"
+	let promedio;
+	let terminar;
+
+	while(terminar!="si")
+	{
+		i++;
+		num = parseInt(prompt("escriba un numero: "));
+		suma = suma + num;
+		terminar = prompt("desea terminar? si o no: ");
+		// suma += parseInt(prompt("Ingrese un numero:")); // The julian way
+	
+	}
+	document.getElementById("txtIdSuma").value=suma;
+	promedio= suma /i;
+	document.getElementById("txtIdPromedio").value=promedio;
 
 
-	txtIdSuma.value=acumulador;
-	txtIdPromedio.value=acumulador/contador;
+
 
 }//FIN DE LA FUNCIÓN
