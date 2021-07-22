@@ -7,13 +7,12 @@ function mostrar()
 	let clave="utn750";
 	//asignaciones
 	
+
+	claveIngresada= prompt("ingrese la clave correcta: ");
 	while(claveIngresada != clave)
 	{
-		claveIngresada= prompt("ingrese la clave correcta: ");
-		// if(claveIngresada != clave)
-		// {
-		// 	alert("clave incorrecta");
-		// }
+		claveIngresada=prompt("ingrese la clave correcta: ");
+		
 
 	}
 	alert("clave correcta!")
