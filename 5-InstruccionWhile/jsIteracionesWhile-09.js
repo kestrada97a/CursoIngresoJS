@@ -8,7 +8,7 @@ function mostrar()
 	let min;
 	let flag=0;
 
-	while(stop != "si")
+	do
 	{
 		numero = parseInt(prompt("escriba un numero: "));
 		stop = prompt("desea finalizar, si/no: ");
@@ -28,10 +28,7 @@ function mostrar()
 		{
 			min=numero;
 		}
-
-		
-
-	}
+	}while(stop != "si")
 	document.getElementById("txtIdMaximo").value=max;
 	document.getElementById("txtIdMinimo").value=min;
 
